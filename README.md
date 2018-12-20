@@ -1,1 +1,1 @@
-"# Architecting-Microsoft-Azure-Solutions" 
+#Architecting-Microsoft-Azure-Solutions
