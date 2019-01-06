@@ -1,0 +1,1 @@
+az group deployment create --name Week3 --resource-group "RG-ArchitectingAzureSolutions" --template-file deploy.json --parameters deploy.parameters.json

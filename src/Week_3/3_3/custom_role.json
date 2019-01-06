@@ -1,0 +1,23 @@
+{
+    "Name":  "VM Manager",
+    "Id":  "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+    "IsCustom":  true,
+    "Description":  "Allowed: Start VM, Stop VM, Send Report",
+    "Actions":  [
+                    "Microsoft.ClassicCompute/virtualMachines/start/action",
+                    "Microsoft.ClassicCompute/virtualMachines/stop/action",
+                    "Microsoft.Support/supportTickets/write"
+                ],
+    "NotActions":  [
+
+                   ],
+    "DataActions":  [
+
+                    ],
+    "NotDataActions":  [
+
+                       ],
+    "AssignableScopes":  [
+                             "/subscriptions/{subscriptionId}"
+                         ]
+}
